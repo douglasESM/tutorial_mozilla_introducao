@@ -1,0 +1,49 @@
+ /*p {
+   color: red;
+    width: 500px;
+    border: 1px solid black;
+}
+
+Selecionando vários elementos
+p, li, h1 {
+    color: red";
+}*/
+
+html {
+    font-size: 10px; /*px significa "pixels": o tamanho da fonte agora tem 10 pixwls de altura;*/
+    font-family: "Open Sans", sans-serif;/*Este deve ser o restante da saída obtida das fontes do Google.*/
+    
+    background-color: #6f7c88;/*Alterando a cor de fundo da página*/
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+
+    /*Posicionando e estilizando o título da página principal.*/
+    margin:0;/*margem do elemento*/
+    padding: 20px 0;/*preenchimento do elemento*/
+    color: #00539F;/*Cor do elemento*/
+    text-shadow: 3px 3px 1px black;/*Sombra do elemento*/
+}
+
+p, li {
+    font-size: 16px;/*tamanho da fonte*/
+    line-height: 2;/*altura da linha*/
+    letter-spacing: 1px;/*espaçamento entre as letras*/
+}
+
+/*Classificando o corpo*/
+body{
+    width: 600px; /*Largura da página*/
+    margin: 0 auto; /*Margem da página*/
+    background-color: #FF9500;/*Cor de Fundo da página*/
+    padding: 0 20px 20px 20px;/*Preenchimento da página*/
+    border: 5px solid black;/*Borda da página*/
+}
+
+/*Centralizando a imagem*/
+img{
+    display: block; /**/
+    margin: 0 auto;
+}
